@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Project</title>
+</head>
+
+<body>
+    <h1 id="a">Welcome</h1>
+    <p>This is a welcome message</p>
+    <h1>Tech</h1>
+    <p>This is tech part</p>
+    <script>
+        var t = document.getElementById("a").innerHTML
+        alert("THE FIRST HEADING IS " + t)
+        var fruit = ["red", "green", "blue", "yellow", "magenta"]
+            document.write(fruit.join("*") + "<br>")
+            document.write(fruit + "<br>")
+            fruit.pop()
+            document.write(fruit + "<br>")
+            fruit.pop()
+            document.write(fruit + "<br>")
+            var flowers = ["rose", "sunflower", "lilac", "lily", "jasmine"]
+            document.write(flowers[2] + "<br>")
+            document.write(flowers[4] + "<br>")
+            function add(a, b) {
+                return a + b
+            }
+            function average(a, b) {
+                return add(a, b) / 2
+            }
+            let r = average(108, 675)
+            document.getElementById("a").innerHTML = r
+    </script>
+</body>
+
+</html>
